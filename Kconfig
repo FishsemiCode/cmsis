@@ -1,0 +1,20 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config CMSIS
+	bool "Cortex Microcontroller Software Interface Standard Library"
+	default n
+	---help---
+		Enable cmsis library.
+
+if CMSIS
+
+config CMSIS_DSP_LIBRARY
+	bool "CMSIS DSP Software Library"
+	default y
+	---help---
+		Enable CMSIS DSP Software Library.
+
+endif
