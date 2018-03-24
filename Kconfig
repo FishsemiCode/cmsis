@@ -3,6 +3,8 @@
 # see the file kconfig-language.txt in the NuttX tools repository.
 #
 
+menu "CMSIS"
+
 config CMSIS
 	bool "Cortex Microcontroller Software Interface Standard Library"
 	default n
@@ -18,3 +20,5 @@ config CMSIS_DSP_LIBRARY
 		Enable CMSIS DSP Software Library.
 
 endif
+
+endmenu

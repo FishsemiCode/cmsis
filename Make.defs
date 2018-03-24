@@ -1,5 +1,5 @@
 ############################################################################
-# apps/external/cmsis/Make.defs
+# apps/external/system/cmsis/Make.defs
 #
 #   Copyright (C) 2018 Pinecone Inc. All rights reserved.
 #   Author: Pinecone <pinecone@pinecone.net>
@@ -34,5 +34,5 @@
 ############################################################################
 
 ifeq ($(CONFIG_CMSIS),y)
-CONFIGURED_APPS += external/cmsis
+CONFIGURED_APPS += external/system/cmsis
 endif
