@@ -34,5 +34,5 @@
 ############################################################################
 
 ifeq ($(CONFIG_CMSIS),y)
-CONFIGURED_APPS += external/system/cmsis
+CONFIGURED_APPS += $(APPDIR)/external/system/cmsis
 endif
